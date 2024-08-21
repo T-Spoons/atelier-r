@@ -1,5 +1,5 @@
-# Ces exercices vous permettront de mettre en pratique quelques bonne pratiques 
-# du code. En utilisant ces pratiques, votre code sera plus lisible et il sera
+# Ces exercices vous permettront de mettre en pratique quelques bonne pratiques. 
+# En utilisant ces pratiques, votre code sera plus lisible et il sera
 # plus facile de trouver la source de vos problèmes quand vous en avez.
 
 # PARTIE 1. Briser les problèmes en petits morceaux
@@ -29,4 +29,21 @@ ecart_type <- sd(data.frame(c("John", "Ringo", "Paul", "George"), c(185, 192, 17
 
 # On instancie nos données ChickWeight dans une dataframe i
 i<-ChickWeight
+
+# On va chercher les données pour le poussin 2
+r <- subset(i,Chick==2)
+
+# On va chercher les données pour le poussin 3
+r2 <- subset(i,Chick==3)
+
+# On enregistre les données avec la colonne ajoutée
+new.data <- data.frame(r,r2)
+
+
+
+
+
+
+
+
 
