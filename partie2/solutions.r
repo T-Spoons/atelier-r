@@ -9,7 +9,7 @@
 # et calcule l'écart type. Comment pourriez vous faire en sorte que cette ligne
 # soit brisée en plus petits morceaux?
 
-beatles <- c("John", "Ringo", "Paul", "George")
+beatles <- c("Jessica", "Ringo", "Paul", "George")
 taille <- c(185, 192, 178, 187)
 beatlesData <- data.frame(beatles, taille)
 ecartType <- sd(beatlesData$taille)
